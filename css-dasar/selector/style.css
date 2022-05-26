@@ -1,0 +1,14 @@
+/* selector html element*/
+h1 {
+    color: red;
+}
+
+/* selector id */
+#paragraph {
+    color: yellow;
+}
+
+/* selctor class */
+.selector {
+    color: green;
+}

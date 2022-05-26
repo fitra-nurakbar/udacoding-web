@@ -1,0 +1,12 @@
+/* propert yang di wariskan biasanya: color,font,letter-spacing,line-height,list-style,text-align,text-indent,text-transform,visibility,white-space */
+.parent {
+    color: red;
+    text-transform: uppercase;
+}
+
+/* element <a> dengan property herf tidak mewarisi nilai dari property color */
+
+/* jika ingin mengikuti parent nya gunakan value inherit */
+a {
+    color: inherit;
+}

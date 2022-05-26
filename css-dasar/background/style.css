@@ -1,0 +1,12 @@
+body {
+    /* mengatur warna pada background */
+    background-color: yellow;
+    /* mengatur gambar pada background */
+    background-image: url(logo.png);
+    /* mengatur posisi gambar pada background */
+    background-position: center;
+    /* mengatur jenis pengulangan pada gambar */
+    background-repeat: no-repeat;
+    /* mengatur ukuran background */
+    background-size: 200px;
+}

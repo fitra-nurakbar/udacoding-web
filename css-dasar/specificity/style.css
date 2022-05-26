@@ -1,0 +1,11 @@
+/* inline - id - class - element */
+
+
+.container h1 {
+    color: red;
+}
+
+#header {
+    color: blue;   
+   }
+

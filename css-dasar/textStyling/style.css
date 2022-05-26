@@ -1,0 +1,21 @@
+/* ini adalah komentar */
+
+h1 {
+    /* memberi warna pada tulisan */
+    color: aqua;
+    /* mengatur format paragraf */
+    text-align: center;
+    /* mengatur dekorasi pada teks */
+    text-decoration: underline;
+    /* mengubah jenis huruf menjadi huruf besar,kecil kapital */
+    text-transform: uppercase;
+    /* mengatur spasi antar huruf */
+    letter-spacing: 10px;
+}
+
+p {
+    /* mengatur spasi antar kata */
+    word-spacing: 20px;
+    /* memberi indentasi pada paragraf */
+    text-indent: 50px;
+}

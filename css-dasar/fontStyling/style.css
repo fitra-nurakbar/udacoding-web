@@ -1,0 +1,14 @@
+h1 {
+    /* mengatur jenis font */
+    font-family: sans-serif;
+    /* mengatur ukuran font */
+    font-size: 50px;
+    /* mengatur ketebalan */
+    font-weight: bold;
+    /* mengubah font menjadi small caps */
+    font-variant: small-caps;
+    /* mengatur tampilan font */
+    font-style: oblique;
+    /* mengatur spasi antar baris */
+    line-height: 50px;  
+}

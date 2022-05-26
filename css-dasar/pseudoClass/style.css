@@ -1,0 +1,44 @@
+/* style default pada sebuah link (a yang memiliki href) */
+.head:link{
+    color: green;
+}
+/* style ketika kursor berada diatas sebuah link/elemen */
+.head:hover{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* style ketika sebuah link di klik(keadaan aktif) */
+.head:active{
+    font-style: italic;
+}
+/* stye ketika sebuah link sudah pernah di kunjungi sebelumnya(menggunakan browser yang sama) */
+.head:visited{
+    color: red;
+}
+
+/* pseudo class yang berhubungan dengan posisi elemen */
+
+/* memilih elemen pertama dari sebuah parent elemen(pembungkusnya) */
+ul li:first-child {
+    font-weight: bold;
+}
+/* memilih elemen terakhir dari sebuah parent elemen(pembungkusnya) */
+ul li:last-child{
+    font-style: italic;
+}
+/* memilih elemen ke-n dari sebuah parent (elemen pembungkusnya) n bisa berarti urutan (1)(2),... atau pola (2n), (3n+2), (4n-1) atau ganjil genap (even)&(odd) */
+ul li:nth-child(even) a:hover{
+    text-transform: capitalize;
+}
+ul li:nth-child(odd) a:hover{
+    color: yellow;
+}
+/* memilih elemen pertama dsri sebuah jenis/tipe tag */
+p:first-of-type{
+    color: orange;
+}
+/* memilih elemen terakhir dari sebuah jenis tipe/tag */
+p:last-of-type{
+    color: aqua;
+}
