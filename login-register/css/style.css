@@ -1,0 +1,144 @@
+:root {
+    --color-a: #adadad;
+    --color-b: #08b9ff;
+    --color-c: #444;
+    --color-d: #eee;
+    --color-bg: rgba(255, 255, 255, 0.8);
+    --color-bg-image: linear-gradient(to bottom right, #B3FFAB, #12FFF7);
+    --font: 'Poppins', sans-serif;
+    --font-bold: bold;
+    --font-sz-header: 20px;
+    --font-size: 16px;
+    --text-decoration: underline;
+    --center: center;
+}
+
+body{
+    font-family: var(--font);
+    background-image: var(--color-bg-image);
+    color: var(--color-a);
+    height: 100vh;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: var(--color-bg);
+    box-shadow: 0px 0px 10px 0px var(--color-a);
+    border-radius: 10px;
+}
+
+.container .header {
+    color: var(--color-c);
+    font-weight: var(--font-bold);
+    font-size: var(--font-sz-header);
+    text-align: var(--center);
+    padding: 20px 0;
+    border-bottom: 1px solid var(--color-a);
+}
+
+.container form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.container .txt_field {
+    position: relative;
+    margin: 30px 0;
+}
+
+.txt_field input {
+    padding: 0 5px;
+    height: 40px;
+    font-size: var(--font-size);
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+} 
+
+.txt_field label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: var(--color-a);
+    transform: translateY(-50%);
+    font-size: var(--font-size);
+    pointer-events: none;
+    transition: .5s;
+}
+
+.txt_field span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-b);
+    transition: .5s;
+}
+
+.txt_field input:focus~label,
+.txt_field input:valid~label {
+    top: -5px;
+    color: var(--color-b);
+}
+
+.txt_field input:focus~span::before,
+.txt_field input:valid~span::before {
+    width: 100%;
+}
+
+.pass {
+    width: 100%;
+    margin: 0 20px;
+    display: inline-flex;
+    margin: -5px 0 20px 5px;
+    color: var(--color-a);
+    cursor: pointer;
+}
+
+.pass .forgot {
+    margin-right: 20px;
+}
+
+.pass .forgot:hover {
+    text-decoration: var(--text-decoration);
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border: 1px solid var(--color-d);
+    border-radius: 25px;
+    background-color: var(--color-b);
+    font-size: 18px;
+    color: var(--color-d);
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    border-color: var(--color-b);
+    transition: .5s;
+}
+
+.sign_link {
+    margin: 30px 0;
+    text-align: center;
+    font-size: var(--font-size);
+    color: var(--color-c);
+}
+
+.sign_link a {
+    color: var(--color-b);
+    text-decoration: none;
+}
+
+.sign_link a:hover {
+    text-decoration: var(--text-decoration);
+}
