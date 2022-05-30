@@ -17,7 +17,7 @@
     }
 
     /* navbar end */
-    /* hero-content */
+    /* hero-content start */
     .hero-content {
         flex-wrap: wrap;
         height: 100%;
@@ -44,13 +44,14 @@
         margin-bottom: 2em;
     }
 
-    /* hero-content */
+    /* hero-content end */
     /* .article-content start */
     .article-content {
         height: 100%;
     }
     .article-content .card {
         flex-wrap: wrap;
+        height: 100%;
     }
 
     .article-content article {
@@ -67,19 +68,20 @@
     }
 
     /* .article-content end */
-    /* cards-content */
+    /* cards-content start */
     .cards-content {
         grid-template-columns: 1fr;
         height: 100%;
     }
 
-    /* cards-content */
-    /* more-content */
+    /* cards-content end */
+    /* more-content start */
     .more-content {
         height: 100%;
     }
     .more-content .card{
         flex-wrap: wrap;
+        height: 100%;
     }
 
     .more-content article {
@@ -106,8 +108,8 @@
         height: 20em;
     }
 
-    /* more-content */
-    /* btn-more */
+    /* more-content end */
+    /* btn-more start */
     .btn-more {
         display: flex;
         justify-content: center;
@@ -118,18 +120,18 @@
         width: 100%;
     }
 
-    /* btn-more */
-    /* footer */
+    /* btn-more end */
+    /* footer start */
     .footer {
         height: 4em;
         font-size: 0.8em;
     }
 
-    /* footer */
+    /* footer end */
 }
 
 @media only screen 
-  and (min-device-width: 480px) 
+  and (min-device-width: 481px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
@@ -147,7 +149,7 @@
     }
 
     /* navbar end */
-    /* hero-content */
+    /* hero-content start */
     .hero-content {
         flex-wrap: wrap;
         height: 100%;
@@ -173,13 +175,14 @@
         margin-bottom: 2em;
     }
 
-    /* hero-content */
+    /* hero-content end */
     /* .article-content start */
     .article-content {
         height: 100%;
     }
     .article-content .card {
         flex-wrap: wrap;
+        height: 100%;
     }
 
     .article-content article {
@@ -195,19 +198,20 @@
     }
 
     /* .article-content end */
-    /* cards-content */
+    /* cards-content start */
     .cards-content {
         grid-template-columns: 1fr;
         height: 100%;
     }
 
-    /* cards-content */
-    /* more-content */
+    /* cards-content end */
+    /* more-content start */
     .more-content {
         height: 100%;
     }
     .more-content .card {
         flex-wrap: wrap;
+        height: 100%;
     }
 
     .more-content article {
@@ -233,13 +237,13 @@
         height: 20em;
     }
 
-    /* more-content */
-    /* footer */
+    /* more-content end */
+    /* footer start */
     .footer {
         height: 4em;
         font-size: 0.8em;
     }
 
-    /* footer */
+    /* footer end */
 }
 
