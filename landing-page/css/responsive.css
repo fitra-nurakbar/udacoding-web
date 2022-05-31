@@ -140,18 +140,10 @@
         height: 4em;
     }
 
-    .navbar ul {
-        display: flex;
-    }
-
-    .navbar .menu {
-        display: none;
-    }
-
     /* navbar end */
     /* hero-content start */
     .hero-content {
-        flex-wrap: wrap;
+        flex-wrap: ;
         height: 100%;
     }
 
@@ -162,11 +154,11 @@
 
     .hero-content h1 {
         margin-top: 2em;
-        font-size: 3em;
+        font-size: 2.5em;
     }
 
     .hero-content p {
-        font-size: 1.5em;
+        font-size: 1.1em;
     }
 
     .hero-content img {
