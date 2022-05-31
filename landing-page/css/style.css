@@ -10,7 +10,6 @@
 
 body {
     font-family: poppins;
-    box-sizing: border-box;
 }
 
 span {
@@ -65,7 +64,8 @@ span {
 .hero-content article {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center
+    flex-direction: column;
     width: 50%;
 }
 
