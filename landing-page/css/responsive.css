@@ -143,11 +143,7 @@
     /* navbar end */
     /* hero-content start */
     .hero-content {
-        height: 100%;
-    }
-
-    .hero-content article {
-        height: 100%;
+        height: 30em;
     }
 
     .hero-content h1 {
