@@ -1,6 +1,6 @@
 @media only screen 
   and (min-device-width: 1px)
-  and (max-device-width: 480px)
+  and (max-device-width: 500px)
   and (-webkit-min-device-pixel-ratio: 1) {
 
     /* navbar start */
@@ -131,7 +131,7 @@
 }
 
 @media only screen 
-  and (min-device-width: 481px) 
+  and (min-device-width: 500px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
