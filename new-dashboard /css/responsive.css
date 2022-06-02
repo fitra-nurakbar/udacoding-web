@@ -1,0 +1,50 @@
+@media(max-width:1090px){
+  .sidebar {
+      width: 90px;
+      text-align: center;
+  }
+  .main {
+      width: calc(100% - 90px);
+      left: 90px;
+  }
+  .top .top-bar {
+      width: calc(100% - 90px);
+  }
+}
+
+@media(max-width:860px){
+  .cards {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .tables {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media(max-width:530px){
+  .cards {
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .last-appointments td:nth-child(3){
+      display: none;
+  }
+}
+@media(max-width:420px){
+  .last-appointments, .doctor-visiting{
+      font-size: 70%;
+      padding: 10px;
+      min-height: 200px;
+  }
+  .cards, .tables {
+      padding: 10px;
+  }
+  .main .search {
+      margin-right: 10px;
+  }
+  .main input#search {
+      width: 20px;
+      padding: 0 10px;
+      font-size: 14px;
+  }
+}
+
