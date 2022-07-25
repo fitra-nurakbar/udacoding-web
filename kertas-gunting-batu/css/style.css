@@ -1,0 +1,22 @@
+* { 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid red; 
+    text-decoration: none;
+    list-style: none;
+    padding: 5px; 
+    margin: 15px; 
+}
+
+body {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+button{
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: yellow;
+}
